@@ -1,0 +1,20 @@
+{
+  "name": "signalwire-createcall",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Creates a call using web socket and tries to retrieve information about it via the Calls API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sebastian Schumann",
+  "license": "MIT",
+  "dependencies": {
+    "@signalwire/realtime-api": "^3.6.0",
+    "@types/node": "^18.0.6",
+    "axios": "^1.3.2",
+    "node-fetch": "^3.2.6",
+    "signalwire": "^1.0.4"
+  }
+}
